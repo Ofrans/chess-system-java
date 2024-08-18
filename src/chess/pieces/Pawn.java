@@ -4,7 +4,7 @@ import boardgame.Board;
 import boardgame.Position;
 import chess.ChessMatch;
 import chess.ChessPiece;
-import chess.Color;
+import chess.enums.Color;
 
 public class Pawn extends ChessPiece {
 

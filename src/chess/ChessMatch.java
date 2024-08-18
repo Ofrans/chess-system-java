@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 import boardgame.Board;
 import boardgame.Piece;
 import boardgame.Position;
+import chess.enums.Color;
 import chess.pieces.Bishop;
 import chess.pieces.King;
 import chess.pieces.Knight;
@@ -18,7 +19,7 @@ import chess.pieces.Rook;
 public class ChessMatch {
 
     private int turn;
-    private Color currentPlayer;
+    private chess.enums.Color currentPlayer;
     private Board board;
     private boolean check;
     private boolean checkMate;
